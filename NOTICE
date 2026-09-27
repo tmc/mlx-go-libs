@@ -1,0 +1,34 @@
+mlx-go
+Copyright 2024-2026 tmc labs Corporation
+
+This product includes software developed by tmc labs Corporation.
+
+This product includes runtime bindings, generated wrappers, native library
+distribution tooling, and documentation for Apple's MLX project.
+
+Upstream projects and licenses:
+
+- MLX, https://github.com/ml-explore/mlx, MIT License.
+- MLX C, https://github.com/ml-explore/mlx-c, MIT License.
+- MLX Swift, https://github.com/ml-explore/mlx-swift, MIT License.
+- MLX Swift LM, https://github.com/ml-explore/mlx-swift-lm, MIT License.
+- MLX Swift examples, https://github.com/ml-explore/mlx-swift-examples, MIT License.
+- purego, https://github.com/ebitengine/purego, Apache License 2.0.
+
+The native libraries built from MLX compile in code from:
+
+- nlohmann/json, https://github.com/nlohmann/json, MIT License.
+- {fmt}, https://github.com/fmtlib/fmt, MIT License.
+- gguf-tools, https://github.com/antirez/gguf-tools, MIT License.
+- metal-cpp (macOS), https://developer.apple.com/metal/cpp/, Apache License 2.0.
+- CCCL (CUDA), https://github.com/NVIDIA/cccl, Apache License 2.0 with LLVM
+  Exceptions.
+- NVTX (CUDA), https://github.com/NVIDIA/NVTX, Apache License 2.0 with LLVM
+  Exceptions.
+- cuDNN Frontend (CUDA), https://github.com/NVIDIA/cudnn-frontend, MIT License.
+- CUTLASS (CUDA), https://github.com/NVIDIA/cutlass, BSD 3-Clause License.
+
+CUDA bundles also carry CCCL and CUTLASS headers under include/ for runtime
+compilation, under the same licenses.
+
+The upstream license texts and attribution notes are in THIRD_PARTY_LICENSES/.

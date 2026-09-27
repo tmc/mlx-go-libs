@@ -1,0 +1,6 @@
+purego
+Source: https://github.com/ebitengine/purego
+
+purego is distributed under the Apache License, Version 2.0.
+
+The repository root LICENSE file contains the Apache License, Version 2.0 text.
